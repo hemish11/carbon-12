@@ -3,6 +3,7 @@ import 'package:carbon12/utils/theme_notifier.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemePage extends StatefulWidget {
   @override
@@ -28,7 +29,7 @@ class _ThemePageState extends State<ThemePage> {
             onPressed: () {
               isDark = !isDark;
 
-              changeTheme(isDark ? darkTheme1 : lightTheme1, themeNotifier);
+              changeTheme(isDark ? Themes.darkTheme1 : Themes.lightTheme1, isDark ? 'Dark1' : 'Light1', themeNotifier);
             },
             child: Text(
               'Change Theme',
@@ -40,7 +41,10 @@ class _ThemePageState extends State<ThemePage> {
     );
   }
 
-  void changeTheme(ThemeData theme, ThemeNotifier themeNotifier) async {
+  void changeTheme(ThemeData theme, String name, ThemeNotifier themeNotifier) async {
     themeNotifier.setTheme(theme);
+
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString('THEME', name);
   }
 }
