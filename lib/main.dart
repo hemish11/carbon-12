@@ -10,7 +10,7 @@ void main() => runApp(ChangeNotifierProvider(create: (_) => ThemeNotifier(Themes
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final themeNotifier = Provider.of<ThemeNotifier>(context);
+    final ThemeNotifier themeNotifier = Provider.of<ThemeNotifier>(context);
 
     SharedPreferences.getInstance().then((prefs) {
       if (prefs.getString('THEME') == 'Dark2') {

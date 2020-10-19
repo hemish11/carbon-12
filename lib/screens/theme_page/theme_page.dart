@@ -1,7 +1,9 @@
+import 'package:carbon12/components/background.dart';
+import 'package:carbon12/screens/theme_page/components/color_button.dart';
 import 'package:carbon12/themes.dart';
 import 'package:carbon12/utils/theme_notifier.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -15,28 +17,45 @@ class _ThemePageState extends State<ThemePage> {
 
   @override
   Widget build(BuildContext context) {
-    final themeNotifier = Provider.of<ThemeNotifier>(context);
+    final ThemeNotifier themeNotifier = Provider.of<ThemeNotifier>(context);
 
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle(
-        statusBarIconBrightness: Theme.of(context).brightness == Brightness.light ? Brightness.dark : Brightness.light,
-        statusBarBrightness: Theme.of(context).brightness,
-      ),
-      child: Scaffold(
-        backgroundColor: Theme.of(context).primaryColor,
-        body: Center(
-          child: FlatButton(
-            onPressed: () {
-              isDark = !isDark;
-
-              changeTheme(isDark ? Themes.darkTheme1 : Themes.lightTheme1, isDark ? 'Dark1' : 'Light1', themeNotifier);
-            },
-            child: Text(
-              'Change Theme',
-              style: Theme.of(context).textTheme.bodyText1,
-            ),
+    return Background(
+      child: Column(
+        children: [
+          Text('Select Theme', style: Theme.of(context).textTheme.headline1),
+          const SizedBox(height: 40),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              ColorButton(
+                'Light 1',
+                theme: Themes.lightTheme1,
+                onTap: () => changeTheme(Themes.lightTheme1, 'Light1', themeNotifier),
+              ),
+              ColorButton(
+                'Light 2',
+                theme: Themes.lightTheme2,
+                onTap: () => changeTheme(Themes.lightTheme2, 'Light2', themeNotifier),
+              ),
+            ],
           ),
-        ),
+          const SizedBox(height: 30),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              ColorButton(
+                'Dark 1',
+                theme: Themes.darkTheme1,
+                onTap: () => changeTheme(Themes.darkTheme1, 'Dark1', themeNotifier),
+              ),
+              ColorButton(
+                'Dark 2',
+                theme: Themes.darkTheme2,
+                onTap: () => changeTheme(Themes.darkTheme2, 'Dark2', themeNotifier),
+              ),
+            ],
+          )
+        ],
       ),
     );
   }
