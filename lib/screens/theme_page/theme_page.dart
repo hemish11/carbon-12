@@ -1,4 +1,5 @@
 import 'package:carbon12/components/background.dart';
+import 'package:carbon12/screens/theme_page/components/button.dart';
 import 'package:carbon12/screens/theme_page/components/color_button.dart';
 import 'package:carbon12/themes.dart';
 import 'package:carbon12/utils/theme_notifier.dart';
@@ -54,7 +55,11 @@ class _ThemePageState extends State<ThemePage> {
                 onTap: () => changeTheme(Themes.darkTheme2, 'Dark2', themeNotifier),
               ),
             ],
-          )
+          ),
+          Spacer(),
+          NeuButton(
+            onTap: () {},
+          ),
         ],
       ),
     );
