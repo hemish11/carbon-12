@@ -7,10 +7,12 @@ class BidirectionalScrollView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
+    return SafeArea(
       child: SingleChildScrollView(
-        child: child,
+        scrollDirection: Axis.horizontal,
+        child: SingleChildScrollView(
+          child: child,
+        ),
       ),
     );
   }

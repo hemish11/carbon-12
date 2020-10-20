@@ -8,13 +8,11 @@ class ElementTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
-
     return Padding(
       padding: const EdgeInsets.all(15.0),
       child: SizedBox(
-        height: size.height * 0.14,
-        width: size.width * 0.25,
+        height: 70,
+        width: 70,
         child: Neumorphic(
           style: NeumorphicStyle(
             color: Theme.of(context).primaryColor,
