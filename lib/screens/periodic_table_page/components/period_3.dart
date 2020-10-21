@@ -11,9 +11,9 @@ class Period3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        for (int i = 10; i < 12; i++) ElementTile(symbol: data['elements'][i]['symbol']),
+        for (int i = 10; i < 12; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
         const SpacerBox(width: 10),
-        for (int i = 12; i < 18; i++) ElementTile(symbol: data['elements'][i]['symbol']),
+        for (int i = 12; i < 18; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
       ],
     );
   }

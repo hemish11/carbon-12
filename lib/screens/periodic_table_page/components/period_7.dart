@@ -12,9 +12,9 @@ class Period7 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        for (int i = 86; i < 88; i++) ElementTile(symbol: data['elements'][i]['symbol']),
-        ElementTile(symbol: '**'),
-        for (int i = 103; i < 118; i++) ElementTile(symbol: data['elements'][i]['symbol']),
+        for (int i = 86; i < 88; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
+        ElementTile(symbol: '**', index: null),
+        for (int i = 103; i < 118; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
       ],
     );
   }

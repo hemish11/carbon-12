@@ -37,6 +37,7 @@ class _PeriodicTablePageState extends State<PeriodicTablePage> {
   @override
   Widget build(BuildContext context) {
     return Background(
+      givePadding: false,
       child: BidirectionalScrollView(
         child: Column(
           children: [

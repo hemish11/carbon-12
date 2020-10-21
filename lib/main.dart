@@ -1,5 +1,4 @@
 import 'package:carbon12/screens/periodic_table_page/periodic_table_page.dart';
-import 'package:carbon12/screens/theme_page/theme_page.dart';
 import 'package:carbon12/utils/theme_notifier.dart';
 import 'package:carbon12/themes.dart';
 import 'package:flutter/material.dart';

@@ -12,8 +12,8 @@ class InnerTransation2 extends StatelessWidget {
     return Row(
       children: [
         const SpacerBox(width: 1),
-        ElementTile(symbol: '**'),
-        for (int i = 88; i < 103; i++) ElementTile(symbol: data['elements'][i]['symbol']),
+        ElementTile(symbol: '**', index: null),
+        for (int i = 88; i < 103; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
         const SpacerBox(width: 1),
       ],
     );

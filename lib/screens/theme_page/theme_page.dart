@@ -56,9 +56,7 @@ class _ThemePageState extends State<ThemePage> {
             ],
           ),
           Spacer(),
-          NeuButton(
-            onTap: () {},
-          ),
+          NeuButton(),
         ],
       ),
     );

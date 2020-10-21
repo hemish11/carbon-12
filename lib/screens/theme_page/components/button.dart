@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 
 class NeuButton extends StatelessWidget {
-  final GestureTapCallback onTap;
-
-  const NeuButton({Key key, this.onTap}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
 
     return GestureDetector(
-      onTap: onTap,
+      onTap: () => Navigator.pop(context),
       child: Container(
         height: size.width * 0.2,
         width: size.width * 0.8,

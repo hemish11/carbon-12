@@ -3,8 +3,9 @@ import 'package:flutter/services.dart';
 
 class Background extends StatelessWidget {
   final Widget child;
+  final bool givePadding;
 
-  const Background({Key key, this.child}) : super(key: key);
+  const Background({Key key, this.child, this.givePadding = true}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,7 @@ class Background extends StatelessWidget {
           width: size.width,
           child: SafeArea(
             child: Padding(
-              padding: const EdgeInsets.all(10.0),
+              padding: givePadding ? const EdgeInsets.all(10.0) : const EdgeInsets.all(0),
               child: child,
             ),
           ),

@@ -7,9 +7,9 @@ class Period1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const ElementTile(symbol: 'H'),
+        const ElementTile(symbol: 'H', index: 0),
         const SpacerBox(width: 16),
-        const ElementTile(symbol: 'He'),
+        const ElementTile(symbol: 'He', index: 1),
       ],
     );
   }

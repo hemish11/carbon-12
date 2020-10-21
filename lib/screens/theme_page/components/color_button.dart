@@ -48,9 +48,12 @@ class ColorButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(14),
           ),
           child: NeuCard(
-            bevel: 10,
+            bevel: 20,
             curveType: CurveType.emboss,
-            color: Theme.of(context).primaryColor,
+            decoration: NeumorphicDecoration(
+              borderRadius: BorderRadius.circular(12),
+              color: Theme.of(context).primaryColor,
+            ),
             child: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,

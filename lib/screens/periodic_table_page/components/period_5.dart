@@ -10,7 +10,7 @@ class Period5 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        for (int i = 36; i < 54; i++) ElementTile(symbol: data['elements'][i]['symbol']),
+        for (int i = 36; i < 54; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
       ],
     );
   }
