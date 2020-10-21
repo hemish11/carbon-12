@@ -9,8 +9,10 @@ class BidirectionalScrollView extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
         scrollDirection: Axis.horizontal,
         child: SingleChildScrollView(
+          physics: BouncingScrollPhysics(),
           child: child,
         ),
       ),

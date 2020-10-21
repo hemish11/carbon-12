@@ -7,11 +7,9 @@ class SpacerBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
-
     return SizedBox(
-      height: size.height * 0.1 + 30,
-      width: (size.width * 0.2 + 30) * width,
+      height: 100,
+      width: (100 * width).toDouble(),
     );
   }
 }

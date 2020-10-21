@@ -1,6 +1,4 @@
-import 'package:carbon12/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 
 class NeuButton extends StatelessWidget {
   final GestureTapCallback onTap;
@@ -13,22 +11,30 @@ class NeuButton extends StatelessWidget {
 
     return GestureDetector(
       onTap: onTap,
-      child: SizedBox(
+      child: Container(
         height: size.width * 0.2,
         width: size.width * 0.8,
-        child: Neumorphic(
-          style: NeumorphicStyle(
-            color: Theme.of(context).primaryColor,
-            shadowDarkColor: Theme.of(context).primaryColorDark,
-            shadowLightColor: Theme.of(context).primaryColorLight,
-            depth: 10,
-            boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(15)),
-          ),
-          child: Center(
-            child: Text(
-              'Done',
-              style: Theme.of(context).textTheme.headline2,
+        decoration: BoxDecoration(
+          color: Theme.of(context).primaryColor,
+          boxShadow: [
+            BoxShadow(
+              offset: const Offset(-5, -5),
+              color: Theme.of(context).primaryColorLight,
+              blurRadius: 10,
             ),
+            BoxShadow(
+              offset: const Offset(5, 5),
+              color: Theme.of(context).primaryColorDark,
+              blurRadius: 10,
+            ),
+          ],
+          borderRadius: BorderRadius.circular(25),
+        ),
+        alignment: Alignment.center,
+        child: Center(
+          child: Text(
+            'Done',
+            style: Theme.of(context).textTheme.headline2,
           ),
         ),
       ),

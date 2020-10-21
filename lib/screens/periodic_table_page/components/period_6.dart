@@ -12,7 +12,7 @@ class Period6 extends StatelessWidget {
       children: [
         for (int i = 54; i < 56; i++) ElementTile(symbol: data['elements'][i]['symbol']),
         ElementTile(symbol: '*'),
-        for (int i = 103; i < 118; i++) ElementTile(symbol: data['elements'][i]['symbol']),
+        for (int i = 71; i < 86; i++) ElementTile(symbol: data['elements'][i]['symbol']),
       ],
     );
   }

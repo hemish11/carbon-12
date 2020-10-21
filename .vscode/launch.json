@@ -8,7 +8,6 @@
             "name": "carbon_12",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release",
         }
     ]
 }
