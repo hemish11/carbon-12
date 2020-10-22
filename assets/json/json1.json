@@ -12,14 +12,14 @@
             "electronegativity":2.2,
             "electronicConfiguration":"1s1",
             "groupBlock":"nonmetal",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":1312,
             "meltingPoint":14,
             "name":"Hydrogen",
             "oxidationStates":"-1, 1",
             "standardState":"gas",
             "symbol":"H",
-            "vanDelWaalsRadius":120,
+            "vanDerWaalsRadius":120,
             "yearDiscovered":1766
         },
         {
@@ -31,17 +31,17 @@
             "cpkHexColor":"D9FFFF",
             "density":1.785E-4,
             "electronAffinity":0,
-            "electronegativity":"",
+            "electronegativity":null,
             "electronicConfiguration":"1s2",
             "groupBlock":"noble gas",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":2372,
-            "meltingPoint":"",
+            "meltingPoint":null,
             "name":"Helium",
-            "oxidationStates":"",
+            "oxidationStates":null,
             "standardState":"gas",
             "symbol":"He",
-            "vanDelWaalsRadius":140,
+            "vanDerWaalsRadius":140,
             "yearDiscovered":1868
         },
         {
@@ -63,7 +63,7 @@
             "oxidationStates":1,
             "standardState":"solid",
             "symbol":"Li",
-            "vanDelWaalsRadius":182,
+            "vanDerWaalsRadius":182,
             "yearDiscovered":1817
         },
         {
@@ -85,7 +85,7 @@
             "oxidationStates":2,
             "standardState":"solid",
             "symbol":"Be",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1798
         },
         {
@@ -107,7 +107,7 @@
             "oxidationStates":"1, 2, 3",
             "standardState":"solid",
             "symbol":"B",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1807
         },
         {
@@ -129,7 +129,7 @@
             "oxidationStates":"-4, -3, -2, -1, 1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"C",
-            "vanDelWaalsRadius":170,
+            "vanDerWaalsRadius":170,
             "yearDiscovered":"Ancient"
         },
         {
@@ -151,7 +151,7 @@
             "oxidationStates":"-3, -2, -1, 1, 2, 3, 4, 5",
             "standardState":"gas",
             "symbol":"N",
-            "vanDelWaalsRadius":155,
+            "vanDerWaalsRadius":155,
             "yearDiscovered":1772
         },
         {
@@ -173,7 +173,7 @@
             "oxidationStates":"-2, -1, 1, 2",
             "standardState":"gas",
             "symbol":"O",
-            "vanDelWaalsRadius":152,
+            "vanDerWaalsRadius":152,
             "yearDiscovered":1774
         },
         {
@@ -195,7 +195,7 @@
             "oxidationStates":-1,
             "standardState":"gas",
             "symbol":"F",
-            "vanDelWaalsRadius":147,
+            "vanDerWaalsRadius":147,
             "yearDiscovered":1670
         },
         {
@@ -207,17 +207,17 @@
             "cpkHexColor":"B3E3F5",
             "density":9.0E-4,
             "electronAffinity":0,
-            "electronegativity":"",
+            "electronegativity":null,
             "electronicConfiguration":"[He] 2s2 2p6",
             "groupBlock":"noble gas",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":2081,
             "meltingPoint":25,
             "name":"Neon",
-            "oxidationStates":"",
+            "oxidationStates":null,
             "standardState":"gas",
             "symbol":"Ne",
-            "vanDelWaalsRadius":154,
+            "vanDerWaalsRadius":154,
             "yearDiscovered":1898
         },
         {
@@ -239,7 +239,7 @@
             "oxidationStates":"-1, 1",
             "standardState":"solid",
             "symbol":"Na",
-            "vanDelWaalsRadius":227,
+            "vanDerWaalsRadius":227,
             "yearDiscovered":1807
         },
         {
@@ -261,7 +261,7 @@
             "oxidationStates":"1, 2",
             "standardState":"solid",
             "symbol":"Mg",
-            "vanDelWaalsRadius":173,
+            "vanDerWaalsRadius":173,
             "yearDiscovered":1808
         },
         {
@@ -283,7 +283,7 @@
             "oxidationStates":"1, 3",
             "standardState":"solid",
             "symbol":"Al",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":"Ancient"
         },
         {
@@ -305,7 +305,7 @@
             "oxidationStates":"-4, -3, -2, -1, 1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"Si",
-            "vanDelWaalsRadius":210,
+            "vanDerWaalsRadius":210,
             "yearDiscovered":1854
         },
         {
@@ -327,7 +327,7 @@
             "oxidationStates":"-3, -2, -1, 1, 2, 3, 4, 5",
             "standardState":"solid",
             "symbol":"P",
-            "vanDelWaalsRadius":180,
+            "vanDerWaalsRadius":180,
             "yearDiscovered":1669
         },
         {
@@ -349,7 +349,7 @@
             "oxidationStates":"-2, -1, 1, 2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"S",
-            "vanDelWaalsRadius":180,
+            "vanDerWaalsRadius":180,
             "yearDiscovered":"Ancient"
         },
         {
@@ -371,7 +371,7 @@
             "oxidationStates":"-1, 1, 2, 3, 4, 5, 6, 7",
             "standardState":"gas",
             "symbol":"Cl",
-            "vanDelWaalsRadius":175,
+            "vanDerWaalsRadius":175,
             "yearDiscovered":1774
         },
         {
@@ -383,17 +383,17 @@
             "cpkHexColor":"80D1E3",
             "density":0.001784,
             "electronAffinity":0,
-            "electronegativity":"",
+            "electronegativity":null,
             "electronicConfiguration":"[Ne] 3s2 3p6",
             "groupBlock":"noble gas",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":1521,
             "meltingPoint":84,
             "name":"Argon",
-            "oxidationStates":"",
+            "oxidationStates":null,
             "standardState":"gas",
             "symbol":"Ar",
-            "vanDelWaalsRadius":188,
+            "vanDerWaalsRadius":188,
             "yearDiscovered":1894
         },
         {
@@ -415,7 +415,7 @@
             "oxidationStates":1,
             "standardState":"solid",
             "symbol":"K",
-            "vanDelWaalsRadius":275,
+            "vanDerWaalsRadius":275,
             "yearDiscovered":1807
         },
         {
@@ -437,7 +437,7 @@
             "oxidationStates":2,
             "standardState":"solid",
             "symbol":"Ca",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":"Ancient"
         },
         {
@@ -459,7 +459,7 @@
             "oxidationStates":"1, 2, 3",
             "standardState":"solid",
             "symbol":"Sc",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1876
         },
         {
@@ -481,7 +481,7 @@
             "oxidationStates":"-1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"Ti",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1791
         },
         {
@@ -503,7 +503,7 @@
             "oxidationStates":"-1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"V",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1803
         },
         {
@@ -525,7 +525,7 @@
             "oxidationStates":"-2, -1, 1, 2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Cr",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":"Ancient"
         },
         {
@@ -547,7 +547,7 @@
             "oxidationStates":"-3, -2, -1, 1, 2, 3, 4, 5, 6, 7",
             "standardState":"solid",
             "symbol":"Mn",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1774
         },
         {
@@ -569,7 +569,7 @@
             "oxidationStates":"-2, -1, 1, 2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Fe",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":"Ancient"
         },
         {
@@ -591,7 +591,7 @@
             "oxidationStates":"-1, 1, 2, 3, 4, 5",
             "standardState":"solid",
             "symbol":"Co",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":"Ancient"
         },
         {
@@ -613,7 +613,7 @@
             "oxidationStates":"-1, 1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"Ni",
-            "vanDelWaalsRadius":163,
+            "vanDerWaalsRadius":163,
             "yearDiscovered":1751
         },
         {
@@ -635,7 +635,7 @@
             "oxidationStates":"1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"Cu",
-            "vanDelWaalsRadius":140,
+            "vanDerWaalsRadius":140,
             "yearDiscovered":"Ancient"
         },
         {
@@ -657,7 +657,7 @@
             "oxidationStates":2,
             "standardState":"solid",
             "symbol":"Zn",
-            "vanDelWaalsRadius":139,
+            "vanDerWaalsRadius":139,
             "yearDiscovered":1746
         },
         {
@@ -679,7 +679,7 @@
             "oxidationStates":"1, 2, 3",
             "standardState":"solid",
             "symbol":"Ga",
-            "vanDelWaalsRadius":187,
+            "vanDerWaalsRadius":187,
             "yearDiscovered":1875
         },
         {
@@ -701,7 +701,7 @@
             "oxidationStates":"-4, 1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"Ge",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1886
         },
         {
@@ -723,7 +723,7 @@
             "oxidationStates":"-3, 2, 3, 5",
             "standardState":"solid",
             "symbol":"As",
-            "vanDelWaalsRadius":185,
+            "vanDerWaalsRadius":185,
             "yearDiscovered":"Ancient"
         },
         {
@@ -745,7 +745,7 @@
             "oxidationStates":"-2, 2, 4, 6",
             "standardState":"solid",
             "symbol":"Se",
-            "vanDelWaalsRadius":190,
+            "vanDerWaalsRadius":190,
             "yearDiscovered":1817
         },
         {
@@ -767,7 +767,7 @@
             "oxidationStates":"-1, 1, 3, 4, 5, 7",
             "standardState":"liquid",
             "symbol":"Br",
-            "vanDelWaalsRadius":185,
+            "vanDerWaalsRadius":185,
             "yearDiscovered":1826
         },
         {
@@ -779,17 +779,17 @@
             "cpkHexColor":"5CB8D1",
             "density":0.00375,
             "electronAffinity":0,
-            "electronegativity":"",
+            "electronegativity":null,
             "electronicConfiguration":"[Ar] 3d10 4s2 4p6",
             "groupBlock":"noble gas",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":1351,
             "meltingPoint":116,
             "name":"Krypton",
             "oxidationStates":2,
             "standardState":"gas",
             "symbol":"Kr",
-            "vanDelWaalsRadius":202,
+            "vanDerWaalsRadius":202,
             "yearDiscovered":1898
         },
         {
@@ -811,7 +811,7 @@
             "oxidationStates":1,
             "standardState":"solid",
             "symbol":"Rb",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1861
         },
         {
@@ -833,7 +833,7 @@
             "oxidationStates":2,
             "standardState":"solid",
             "symbol":"Sr",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1790
         },
         {
@@ -855,7 +855,7 @@
             "oxidationStates":"1, 2, 3",
             "standardState":"solid",
             "symbol":"Y",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1794
         },
         {
@@ -877,7 +877,7 @@
             "oxidationStates":"1, 2, 3, 4",
             "standardState":"solid",
             "symbol":"Zr",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1789
         },
         {
@@ -899,7 +899,7 @@
             "oxidationStates":"-1, 2, 3, 4, 5",
             "standardState":"solid",
             "symbol":"Nb",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1801
         },
         {
@@ -921,7 +921,7 @@
             "oxidationStates":"-2, -1, 1, 2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Mo",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1778
         },
         {
@@ -945,7 +945,7 @@
             "oxidationStates":"-3, -1, 1, 2, 3, 4, 5, 6, 7",
             "standardState":"solid",
             "symbol":"Tc",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1937
         },
         {
@@ -967,7 +967,7 @@
             "oxidationStates":"-2, 1, 2, 3, 4, 5, 6, 7, 8",
             "standardState":"solid",
             "symbol":"Ru",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1827
         },
         {
@@ -989,7 +989,7 @@
             "oxidationStates":"-1, 1, 2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Rh",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1803
         },
         {
@@ -1011,7 +1011,7 @@
             "oxidationStates":"2, 4",
             "standardState":"solid",
             "symbol":"Pd",
-            "vanDelWaalsRadius":163,
+            "vanDerWaalsRadius":163,
             "yearDiscovered":1803
         },
         {
@@ -1033,7 +1033,7 @@
             "oxidationStates":"1, 2, 3",
             "standardState":"solid",
             "symbol":"Ag",
-            "vanDelWaalsRadius":172,
+            "vanDerWaalsRadius":172,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1055,7 +1055,7 @@
             "oxidationStates":2,
             "standardState":"solid",
             "symbol":"Cd",
-            "vanDelWaalsRadius":158,
+            "vanDerWaalsRadius":158,
             "yearDiscovered":1817
         },
         {
@@ -1077,7 +1077,7 @@
             "oxidationStates":"1, 2, 3",
             "standardState":"solid",
             "symbol":"In",
-            "vanDelWaalsRadius":193,
+            "vanDerWaalsRadius":193,
             "yearDiscovered":1863
         },
         {
@@ -1099,7 +1099,7 @@
             "oxidationStates":"-4, 2, 4",
             "standardState":"solid",
             "symbol":"Sn",
-            "vanDelWaalsRadius":217,
+            "vanDerWaalsRadius":217,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1121,7 +1121,7 @@
             "oxidationStates":"-3, 3, 5",
             "standardState":"solid",
             "symbol":"Sb",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1143,7 +1143,7 @@
             "oxidationStates":"-2, 2, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Te",
-            "vanDelWaalsRadius":206,
+            "vanDerWaalsRadius":206,
             "yearDiscovered":1782
         },
         {
@@ -1165,7 +1165,7 @@
             "oxidationStates":"-1, 1, 3, 5, 7",
             "standardState":"solid",
             "symbol":"I",
-            "vanDelWaalsRadius":198,
+            "vanDerWaalsRadius":198,
             "yearDiscovered":1811
         },
         {
@@ -1177,7 +1177,7 @@
             "cpkHexColor":"429EB0",
             "density":0.0059,
             "electronAffinity":0,
-            "electronegativity":"",
+            "electronegativity":null,
             "electronicConfiguration":"[Kr] 4d10 5s2 5p6",
             "groupBlock":"noble gas",
             "ionRadius":"48 (+8)",
@@ -1187,7 +1187,7 @@
             "oxidationStates":"2, 4, 6, 8",
             "standardState":"gas",
             "symbol":"Xe",
-            "vanDelWaalsRadius":216,
+            "vanDerWaalsRadius":216,
             "yearDiscovered":1898
         },
         {
@@ -1209,7 +1209,7 @@
             "oxidationStates":1,
             "standardState":"solid",
             "symbol":"Cs",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1860
         },
         {
@@ -1231,7 +1231,7 @@
             "oxidationStates":2,
             "standardState":"solid",
             "symbol":"Ba",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1808
         },
         {
@@ -1253,13 +1253,13 @@
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"La",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1839
         },
         {
             "atomicMass":"140.116(1)",
             "atomicNumber":58,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3633,
             "bondingType":"metallic",
             "cpkHexColor":"FFFFC7",
@@ -1275,13 +1275,13 @@
             "oxidationStates":"2, 3, 4",
             "standardState":"solid",
             "symbol":"Ce",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1803
         },
         {
             "atomicMass":"140.90765(2)",
             "atomicNumber":59,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3563,
             "bondingType":"metallic",
             "cpkHexColor":"D9FFC7",
@@ -1297,13 +1297,13 @@
             "oxidationStates":"2, 3, 4",
             "standardState":"solid",
             "symbol":"Pr",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1885
         },
         {
             "atomicMass":"144.242(3)",
             "atomicNumber":60,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3373,
             "bondingType":"metallic",
             "cpkHexColor":"C7FFC7",
@@ -1319,7 +1319,7 @@
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"Nd",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1885
         },
         {
@@ -1327,7 +1327,7 @@
                 145
             ],
             "atomicNumber":61,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3273,
             "bondingType":"metallic",
             "cpkHexColor":"A3FFC7",
@@ -1343,13 +1343,13 @@
             "oxidationStates":3,
             "standardState":"solid",
             "symbol":"Pm",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1947
         },
         {
             "atomicMass":"150.36(2)",
             "atomicNumber":62,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":2076,
             "bondingType":"metallic",
             "cpkHexColor":"8FFFC7",
@@ -1365,13 +1365,13 @@
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"Sm",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1853
         },
         {
             "atomicMass":"151.964(1)",
             "atomicNumber":63,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":1800,
             "bondingType":"metallic",
             "cpkHexColor":"61FFC7",
@@ -1387,13 +1387,13 @@
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"Eu",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1901
         },
         {
             "atomicMass":"157.25(3)",
             "atomicNumber":64,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3523,
             "bondingType":"metallic",
             "cpkHexColor":"45FFC7",
@@ -1409,13 +1409,13 @@
             "oxidationStates":"1, 2, 3",
             "standardState":"solid",
             "symbol":"Gd",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1880
         },
         {
             "atomicMass":"158.92535(2)",
             "atomicNumber":65,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3503,
             "bondingType":"metallic",
             "cpkHexColor":"30FFC7",
@@ -1431,13 +1431,13 @@
             "oxidationStates":"1, 3, 4",
             "standardState":"solid",
             "symbol":"Tb",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1843
         },
         {
             "atomicMass":"162.500(1)",
             "atomicNumber":66,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":2840,
             "bondingType":"metallic",
             "cpkHexColor":"1FFFC7",
@@ -1453,13 +1453,13 @@
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"Dy",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1886
         },
         {
             "atomicMass":"164.93032(2)",
             "atomicNumber":67,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":2973,
             "bondingType":"metallic",
             "cpkHexColor":"00FF9C",
@@ -1475,13 +1475,13 @@
             "oxidationStates":3,
             "standardState":"solid",
             "symbol":"Ho",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1878
         },
         {
             "atomicMass":"167.259(3)",
             "atomicNumber":68,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3141,
             "bondingType":"metallic",
             "cpkHexColor":0,
@@ -1497,13 +1497,13 @@
             "oxidationStates":3,
             "standardState":"solid",
             "symbol":"Er",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1842
         },
         {
             "atomicMass":"168.93421(2)",
             "atomicNumber":69,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":2223,
             "bondingType":"metallic",
             "cpkHexColor":"00D452",
@@ -1519,13 +1519,13 @@
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"Tm",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1879
         },
         {
             "atomicMass":"173.054(5)",
             "atomicNumber":70,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":1469,
             "bondingType":"metallic",
             "cpkHexColor":"00BF38",
@@ -1541,7 +1541,7 @@
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"Yb",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1878
         },
         {
@@ -1563,7 +1563,7 @@
             "oxidationStates":3,
             "standardState":"solid",
             "symbol":"Lu",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1907
         },
         {
@@ -1585,7 +1585,7 @@
             "oxidationStates":"2, 3, 4",
             "standardState":"solid",
             "symbol":"Hf",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1923
         },
         {
@@ -1607,7 +1607,7 @@
             "oxidationStates":"-1, 2, 3, 4, 5",
             "standardState":"solid",
             "symbol":"Ta",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1802
         },
         {
@@ -1629,7 +1629,7 @@
             "oxidationStates":"-2, -1, 1, 2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"W",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1783
         },
         {
@@ -1651,7 +1651,7 @@
             "oxidationStates":"-3, -1, 1, 2, 3, 4, 5, 6, 7",
             "standardState":"solid",
             "symbol":"Re",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1925
         },
         {
@@ -1673,7 +1673,7 @@
             "oxidationStates":"-2, -1, 1, 2, 3, 4, 5, 6, 7, 8",
             "standardState":"solid",
             "symbol":"Os",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1803
         },
         {
@@ -1695,7 +1695,7 @@
             "oxidationStates":"-3, -1, 1, 2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Ir",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1803
         },
         {
@@ -1717,7 +1717,7 @@
             "oxidationStates":"2, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Pt",
-            "vanDelWaalsRadius":175,
+            "vanDerWaalsRadius":175,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1739,7 +1739,7 @@
             "oxidationStates":"-1, 1, 2, 3, 5",
             "standardState":"solid",
             "symbol":"Au",
-            "vanDelWaalsRadius":166,
+            "vanDerWaalsRadius":166,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1761,7 +1761,7 @@
             "oxidationStates":"1, 2, 4",
             "standardState":"liquid",
             "symbol":"Hg",
-            "vanDelWaalsRadius":155,
+            "vanDerWaalsRadius":155,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1783,7 +1783,7 @@
             "oxidationStates":"1, 3",
             "standardState":"solid",
             "symbol":"Tl",
-            "vanDelWaalsRadius":196,
+            "vanDerWaalsRadius":196,
             "yearDiscovered":1861
         },
         {
@@ -1805,7 +1805,7 @@
             "oxidationStates":"-4, 2, 4",
             "standardState":"solid",
             "symbol":"Pb",
-            "vanDelWaalsRadius":202,
+            "vanDerWaalsRadius":202,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1827,7 +1827,7 @@
             "oxidationStates":"-3, 3, 5",
             "standardState":"solid",
             "symbol":"Bi",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":"Ancient"
         },
         {
@@ -1835,7 +1835,7 @@
                 209
             ],
             "atomicNumber":84,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":1235,
             "bondingType":"metallic",
             "cpkHexColor":"AB5C00",
@@ -1851,7 +1851,7 @@
             "oxidationStates":"-2, 2, 4, 6",
             "standardState":"solid",
             "symbol":"Po",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1898
         },
         {
@@ -1859,11 +1859,11 @@
                 210
             ],
             "atomicNumber":85,
-            "atomicRadius":"",
-            "boilingPoint":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
             "bondingType":"covalent network",
             "cpkHexColor":"754F45",
-            "density":"",
+            "density":null,
             "electronAffinity":-270,
             "electronegativity":2.2,
             "electronicConfiguration":"[Xe] 4f14 5d10 6s2 6p5",
@@ -1875,7 +1875,7 @@
             "oxidationStates":"-1, 1, 3, 5",
             "standardState":"solid",
             "symbol":"At",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1940
         },
         {
@@ -1888,18 +1888,18 @@
             "bondingType":"atomic",
             "cpkHexColor":428296,
             "density":0.00973,
-            "electronAffinity":"",
-            "electronegativity":"",
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Xe] 4f14 5d10 6s2 6p6",
             "groupBlock":"noble gas",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":1037,
             "meltingPoint":202,
             "name":"Radon",
             "oxidationStates":2,
             "standardState":"gas",
             "symbol":"Rn",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1900
         },
         {
@@ -1907,23 +1907,23 @@
                 223
             ],
             "atomicNumber":87,
-            "atomicRadius":"",
-            "boilingPoint":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
             "bondingType":"metallic",
             "cpkHexColor":420066,
-            "density":"",
-            "electronAffinity":"",
+            "density":null,
+            "electronAffinity":null,
             "electronegativity":0.7,
             "electronicConfiguration":"[Rn] 7s1",
             "groupBlock":"alkali metal",
             "ionRadius":"180 (+1)",
             "ionizationEnergy":380,
-            "meltingPoint":"",
+            "meltingPoint":null,
             "name":"Francium",
             "oxidationStates":1,
             "standardState":"solid",
             "symbol":"Fr",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1939
         },
         {
@@ -1931,12 +1931,12 @@
                 226
             ],
             "atomicNumber":88,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":2010,
             "bondingType":"metallic",
             "cpkHexColor":"007D00",
             "density":5,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":0.9,
             "electronicConfiguration":"[Rn] 7s2",
             "groupBlock":"alkaline earth metal",
@@ -1947,7 +1947,7 @@
             "oxidationStates":2,
             "standardState":"solid",
             "symbol":"Ra",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1898
         },
         {
@@ -1955,12 +1955,12 @@
                 227
             ],
             "atomicNumber":89,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3473,
             "bondingType":"metallic",
             "cpkHexColor":"70ABFA",
             "density":10.07,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.1,
             "electronicConfiguration":"[Rn] 6d1 7s2",
             "groupBlock":"actinoid",
@@ -1971,18 +1971,18 @@
             "oxidationStates":3,
             "standardState":"solid",
             "symbol":"Ac",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1899
         },
         {
             "atomicMass":"232.03806(2)",
             "atomicNumber":90,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":5093,
             "bondingType":"metallic",
             "cpkHexColor":"00BAFF",
             "density":11.724,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 6d2 7s2",
             "groupBlock":"actinoid",
@@ -1993,18 +1993,18 @@
             "oxidationStates":"2, 3, 4",
             "standardState":"solid",
             "symbol":"Th",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1828
         },
         {
             "atomicMass":"231.03588(2)",
             "atomicNumber":91,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":4273,
             "bondingType":"metallic",
             "cpkHexColor":"00A1FF",
             "density":15.37,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.5,
             "electronicConfiguration":"[Rn] 5f2 6d1 7s2",
             "groupBlock":"actinoid",
@@ -2015,18 +2015,18 @@
             "oxidationStates":"3, 4, 5",
             "standardState":"solid",
             "symbol":"Pa",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1913
         },
         {
             "atomicMass":"238.02891(3)",
             "atomicNumber":92,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":4200,
             "bondingType":"metallic",
             "cpkHexColor":"008FFF",
             "density":19.05,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.38,
             "electronicConfiguration":"[Rn] 5f3 6d1 7s2",
             "groupBlock":"actinoid",
@@ -2037,7 +2037,7 @@
             "oxidationStates":"3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"U",
-            "vanDelWaalsRadius":186,
+            "vanDerWaalsRadius":186,
             "yearDiscovered":1789
         },
         {
@@ -2045,12 +2045,12 @@
                 237
             ],
             "atomicNumber":93,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":4273,
             "bondingType":"metallic",
             "cpkHexColor":"0080FF",
             "density":20.45,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.36,
             "electronicConfiguration":"[Rn] 5f4 6d1 7s2",
             "groupBlock":"actinoid",
@@ -2061,7 +2061,7 @@
             "oxidationStates":"3, 4, 5, 6, 7",
             "standardState":"solid",
             "symbol":"Np",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1940
         },
         {
@@ -2069,12 +2069,12 @@
                 244
             ],
             "atomicNumber":94,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3503,
             "bondingType":"metallic",
             "cpkHexColor":"006BFF",
             "density":19.816,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.28,
             "electronicConfiguration":"[Rn] 5f6 7s2",
             "groupBlock":"actinoid",
@@ -2085,7 +2085,7 @@
             "oxidationStates":"3, 4, 5, 6, 7",
             "standardState":"solid",
             "symbol":"Pu",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1940
         },
         {
@@ -2093,12 +2093,12 @@
                 243
             ],
             "atomicNumber":95,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":2284,
             "bondingType":"metallic",
             "cpkHexColor":"545CF2",
-            "density":"",
-            "electronAffinity":"",
+            "density":null,
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f7 7s2",
             "groupBlock":"actinoid",
@@ -2109,7 +2109,7 @@
             "oxidationStates":"2, 3, 4, 5, 6",
             "standardState":"solid",
             "symbol":"Am",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1944
         },
         {
@@ -2117,12 +2117,12 @@
                 247
             ],
             "atomicNumber":96,
-            "atomicRadius":"",
+            "atomicRadius":null,
             "boilingPoint":3383,
             "bondingType":"metallic",
             "cpkHexColor":"785CE3",
             "density":13.51,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f7 6d1 7s2",
             "groupBlock":"actinoid",
@@ -2133,7 +2133,7 @@
             "oxidationStates":"3, 4",
             "standardState":"solid",
             "symbol":"Cm",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1944
         },
         {
@@ -2141,12 +2141,12 @@
                 247
             ],
             "atomicNumber":97,
-            "atomicRadius":"",
-            "boilingPoint":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
             "bondingType":"metallic",
             "cpkHexColor":"8A4FE3",
             "density":14.78,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f9 7s2",
             "groupBlock":"actinoid",
@@ -2157,7 +2157,7 @@
             "oxidationStates":"3, 4",
             "standardState":"solid",
             "symbol":"Bk",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1949
         },
         {
@@ -2165,12 +2165,12 @@
                 251
             ],
             "atomicNumber":98,
-            "atomicRadius":"",
-            "boilingPoint":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
             "bondingType":"metallic",
             "cpkHexColor":"A136D4",
             "density":15.1,
-            "electronAffinity":"",
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f10 7s2",
             "groupBlock":"actinoid",
@@ -2181,7 +2181,7 @@
             "oxidationStates":"2, 3, 4",
             "standardState":"solid",
             "symbol":"Cf",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1950
         },
         {
@@ -2189,23 +2189,23 @@
                 252
             ],
             "atomicNumber":99,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"B31FD4",
-            "density":"",
-            "electronAffinity":"",
+            "density":null,
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f11 7s2",
             "groupBlock":"actinoid",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":619,
             "meltingPoint":1133,
             "name":"Einsteinium",
             "oxidationStates":"2, 3",
             "standardState":"solid",
             "symbol":"Es",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1952
         },
         {
@@ -2213,23 +2213,23 @@
                 257
             ],
             "atomicNumber":100,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"B31FBA",
-            "density":"",
-            "electronAffinity":"",
+            "density":null,
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f12 7s2",
             "groupBlock":"actinoid",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":627,
             "meltingPoint":1800,
             "name":"Fermium",
             "oxidationStates":"2, 3",
-            "standardState":"",
+            "standardState":null,
             "symbol":"Fm",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1952
         },
         {
@@ -2237,23 +2237,23 @@
                 258
             ],
             "atomicNumber":101,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"B30DA6",
-            "density":"",
-            "electronAffinity":"",
+            "density":null,
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f13 7s2",
             "groupBlock":"actinoid",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":635,
             "meltingPoint":1100,
             "name":"Mendelevium",
             "oxidationStates":"2, 3",
-            "standardState":"",
+            "standardState":null,
             "symbol":"Md",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1955
         },
         {
@@ -2261,23 +2261,23 @@
                 259
             ],
             "atomicNumber":102,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"BD0D87",
-            "density":"",
-            "electronAffinity":"",
+            "density":null,
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f14 7s2",
             "groupBlock":"actinoid",
-            "ionRadius":"",
+            "ionRadius":null,
             "ionizationEnergy":642,
             "meltingPoint":1100,
             "name":"Nobelium",
             "oxidationStates":"2, 3",
-            "standardState":"",
+            "standardState":null,
             "symbol":"No",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1957
         },
         {
@@ -2285,23 +2285,23 @@
                 262
             ],
             "atomicNumber":103,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"C70066",
-            "density":"",
-            "electronAffinity":"",
+            "density":null,
+            "electronAffinity":null,
             "electronegativity":1.3,
             "electronicConfiguration":"[Rn] 5f14 7s2 7p1",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
             "meltingPoint":1900,
             "name":"Lawrencium",
             "oxidationStates":3,
-            "standardState":"",
+            "standardState":null,
             "symbol":"Lr",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1961
         },
         {
@@ -2309,23 +2309,23 @@
                 267
             ],
             "atomicNumber":104,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"CC0059",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d2 7s2",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Rutherfordium",
             "oxidationStates":4,
-            "standardState":"",
+            "standardState":null,
             "symbol":"Rf",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1969
         },
         {
@@ -2333,23 +2333,23 @@
                 268
             ],
             "atomicNumber":105,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"D1004F",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d3 7s2",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Dubnium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Db",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1967
         },
         {
@@ -2357,23 +2357,23 @@
                 271
             ],
             "atomicNumber":106,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"D90045",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d4 7s2",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Seaborgium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Sg",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1974
         },
         {
@@ -2381,23 +2381,23 @@
                 272
             ],
             "atomicNumber":107,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"E00038",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d5 7s2",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Bohrium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Bh",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1976
         },
         {
@@ -2405,23 +2405,23 @@
                 270
             ],
             "atomicNumber":108,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"E6002E",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d6 7s2",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Hassium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Hs",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1984
         },
         {
@@ -2429,23 +2429,23 @@
                 276
             ],
             "atomicNumber":109,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
             "cpkHexColor":"EB0026",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d7 7s2",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Meitnerium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Mt",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1982
         },
         {
@@ -2453,23 +2453,23 @@
                 281
             ],
             "atomicNumber":110,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d9 7s1",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Darmstadtium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Ds",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1994
         },
         {
@@ -2477,23 +2477,23 @@
                 280
             ],
             "atomicNumber":111,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s1",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Roentgenium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Rg",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1994
         },
         {
@@ -2501,23 +2501,23 @@
                 285
             ],
             "atomicNumber":112,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s2",
             "groupBlock":"transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Copernicium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Cn",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1996
         },
         {
@@ -2525,23 +2525,23 @@
                 284
             ],
             "atomicNumber":113,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s2 7p1",
             "groupBlock":"post-transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Nihonium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Nh",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":2003
         },
         {
@@ -2549,23 +2549,23 @@
                 289
             ],
             "atomicNumber":114,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s2 7p2",
             "groupBlock":"post-transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Flerovium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Fl",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":1998
         },
         {
@@ -2573,23 +2573,23 @@
                 288
             ],
             "atomicNumber":115,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s2 7p3",
             "groupBlock":"post-transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Moscovium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Mc",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":2003
         },
         {
@@ -2597,23 +2597,23 @@
                 293
             ],
             "atomicNumber":116,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s2 7p4",
             "groupBlock":"post-transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Livermorium",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Lv",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":2000
         },
         {
@@ -2621,23 +2621,23 @@
                 294
             ],
             "atomicNumber":117,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s2 7p5",
             "groupBlock":"post-transition metal",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Tennessine",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Ts",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":2010
         },
         {
@@ -2645,23 +2645,23 @@
                 294
             ],
             "atomicNumber":118,
-            "atomicRadius":"",
-            "boilingPoint":"",
-            "bondingType":"",
-            "cpkHexColor":"",
-            "density":"",
-            "electronAffinity":"",
-            "electronegativity":"",
+            "atomicRadius":null,
+            "boilingPoint":null,
+            "bondingType":null,
+            "cpkHexColor":null,
+            "density":null,
+            "electronAffinity":null,
+            "electronegativity":null,
             "electronicConfiguration":"[Rn] 5f14 6d10 7s2 7p6",
             "groupBlock":"noble gas",
-            "ionRadius":"",
-            "ionizationEnergy":"",
-            "meltingPoint":"",
+            "ionRadius":null,
+            "ionizationEnergy":null,
+            "meltingPoint":null,
             "name":"Oganesson",
-            "oxidationStates":"",
-            "standardState":"",
+            "oxidationStates":null,
+            "standardState":null,
             "symbol":"Og",
-            "vanDelWaalsRadius":"",
+            "vanDerWaalsRadius": null,
             "yearDiscovered":2002
         }
     ]

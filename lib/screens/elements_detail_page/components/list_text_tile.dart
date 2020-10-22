@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 
 class ListTextTile extends StatelessWidget {
   final String headline;
-  final List<String> list;
+  final List list;
+  final String unit;
 
-  const ListTextTile({Key key, @required this.headline, @required this.list}) : super(key: key);
+  const ListTextTile({Key key, @required this.headline, @required this.list, this.unit = ''}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -42,10 +43,10 @@ class ListTextTile extends StatelessWidget {
           ...list
               .map(
                 (item) => Align(
-                  alignment: Alignment.centerLeft,
+                  alignment: Alignment.center,
                   child: Padding(
                     padding: const EdgeInsets.all(5.0),
-                    child: Text(item, style: Theme.of(context).textTheme.headline2),
+                    child: Text(item.toString() + unit, style: Theme.of(context).textTheme.headline2),
                   ),
                 ),
               )

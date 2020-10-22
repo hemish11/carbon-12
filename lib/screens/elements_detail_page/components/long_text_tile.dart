@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 class LongTextTile extends StatelessWidget {
   final String headline;
   final String body;
+  final TextAlign textAlign;
 
-  const LongTextTile({Key key, @required this.headline, this.body}) : super(key: key);
+  const LongTextTile({Key key, @required this.headline, this.body, this.textAlign = TextAlign.justify})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,6 +34,7 @@ class LongTextTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(25),
       ),
       child: Column(
+        crossAxisAlignment: textAlign == TextAlign.justify ? CrossAxisAlignment.center : CrossAxisAlignment.start,
         children: [
           const SizedBox(width: 20),
           Text(
@@ -44,7 +47,7 @@ class LongTextTile extends StatelessWidget {
             child: Text(
               body,
               style: Theme.of(context).textTheme.bodyText1,
-              textAlign: TextAlign.justify,
+              textAlign: textAlign,
             ),
           ),
         ],
