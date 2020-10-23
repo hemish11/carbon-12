@@ -95,6 +95,10 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                     body: (json1['elements'][widget.index]['atomicRadius'] ?? '-').toString() + ' pm',
                   ),
                   LongTextTile(
+                    headline: 'Oxidation states',
+                    body: json1['elements'][widget.index]['oxidationStates'] ?? '-',
+                  ),
+                  LongTextTile(
                     headline: 'Bonding type',
                     body: (json1['elements'][widget.index]['bondingType'] ?? '-').toString(),
                   ),
