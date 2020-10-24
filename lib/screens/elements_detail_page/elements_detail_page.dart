@@ -64,7 +64,6 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                   LongTextTile(
                     headline: 'Atomic Mass',
                     body: json2['elements'][widget.index]['atomic_mass'].toStringAsFixed(4) + ' u',
-                    textAlign: TextAlign.left,
                   ),
                   LongTextTile(headline: 'Summary', body: json2['elements'][widget.index]['summary'].toString()),
                   LongTextTile(
