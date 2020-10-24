@@ -17,8 +17,8 @@ class ImageButton extends StatelessWidget {
           throw 'Could not launch $url';
         }
       },
-      child: Image.network(
-        'https://upload.wikimedia.org/wikipedia/commons/c/c8/Black_W_for_promotion.png',
+      child: Image.asset(
+        'assets/images/wiki_logo.png',
         color: Theme.of(context).brightness == Brightness.light ? CustomColors.kDark1 : CustomColors.kLight1,
         height: 35,
       ),

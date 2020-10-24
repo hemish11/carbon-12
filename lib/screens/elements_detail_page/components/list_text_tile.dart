@@ -40,17 +40,20 @@ class ListTextTile extends StatelessWidget {
             style: Theme.of(context).textTheme.headline2.copyWith(fontWeight: FontWeight.w700),
           ),
           const SizedBox(height: 10),
-          ...list
-              .map(
-                (item) => Align(
-                  alignment: Alignment.center,
-                  child: Padding(
-                    padding: const EdgeInsets.all(5.0),
-                    child: Text(item.toString() + unit, style: Theme.of(context).textTheme.headline2),
+          if (list.length == 0)
+            Text('-', style: Theme.of(context).textTheme.headline2)
+          else
+            ...list
+                .map(
+                  (item) => Align(
+                    alignment: Alignment.center,
+                    child: Padding(
+                      padding: const EdgeInsets.all(5.0),
+                      child: Text(item.toString() + unit, style: Theme.of(context).textTheme.headline2),
+                    ),
                   ),
-                ),
-              )
-              .toList(),
+                )
+                .toList(),
         ],
       ),
     );

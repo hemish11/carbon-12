@@ -27,13 +27,19 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
 
   bool isLoaded = false;
 
+  Future<void> loadData() async {
+    String rawData;
+
+    rawData = await rootBundle.loadString(path1);
+    json1 = jsonDecode(rawData);
+
+    rawData = await rootBundle.loadString(path2);
+    json2 = jsonDecode(rawData);
+  }
+
   @override
   void initState() {
-    rootBundle.loadString(path1).then((value) => json1 = jsonDecode(value));
-    rootBundle
-        .loadString(path2)
-        .then((value) => json2 = jsonDecode(value))
-        .then((value) => setState(() => isLoaded = true));
+    loadData().then((value) => setState(() => isLoaded = true));
 
     super.initState();
   }
@@ -83,7 +89,7 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                   LongTextTile(
                     headline: 'Electron Configuration',
                     body:
-                        "${json2['elements'][widget.index]['electron_configuration'].toString()}\nOR\n${json2['elements'][widget.index]['electron_configuration_semantic'].toString()}",
+                        "${json2['elements'][widget.index]['electron_configuration']}\nOR\n${json2['elements'][widget.index]['electron_configuration_semantic']}",
                     textAlign: TextAlign.left,
                   ),
                   LongTextTile(
@@ -122,7 +128,7 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                   ListTextTile(
                     headline: 'Ionization Energies',
                     list: json2['elements'][widget.index]['ionization_energies'],
-                    unit: 'kJ/mol',
+                    unit: ' kJ/mol',
                   ),
                   ColorTile(color: "0xFF${json2['elements'][widget.index]['cpk-hex']}"),
                 ],
