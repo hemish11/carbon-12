@@ -11,7 +11,7 @@ class Period6 extends StatelessWidget {
     return Row(
       children: [
         for (int i = 54; i < 56; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
-        ElementTile(symbol: '*', index: null),
+        IgnorePointer(ignoring: true, child: ElementTile(symbol: '*', index: null)),
         for (int i = 71; i < 86; i++) ElementTile(symbol: data['elements'][i]['symbol'], index: i),
       ],
     );
