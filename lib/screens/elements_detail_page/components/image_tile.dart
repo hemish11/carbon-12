@@ -1,14 +1,11 @@
+import 'package:carbon12/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class LongTextTile extends StatelessWidget {
-  final String headline;
-  final String body;
-  final TextAlign textAlign;
-  final String url;
+class ImageTile extends StatelessWidget {
+  final url;
 
-  const LongTextTile({Key key, @required this.headline, this.body, this.textAlign = TextAlign.justify, this.url})
-      : super(key: key);
+  const ImageTile({Key key, this.url}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -39,21 +36,22 @@ class LongTextTile extends StatelessWidget {
           ],
           borderRadius: BorderRadius.circular(25),
         ),
-        child: Column(
-          crossAxisAlignment: textAlign == TextAlign.justify ? CrossAxisAlignment.center : CrossAxisAlignment.start,
+        child: Row(
           children: [
             const SizedBox(width: 20),
-            Text(
-              headline,
-              style: Theme.of(context).textTheme.headline2.copyWith(fontWeight: FontWeight.w700),
-            ),
-            const SizedBox(height: 10),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
+            SizedBox(
+              width: size.width * 0.5,
               child: Text(
-                body,
-                style: Theme.of(context).textTheme.bodyText1,
-                textAlign: textAlign,
+                'For more Information Click',
+                style: Theme.of(context).textTheme.headline2.copyWith(fontWeight: FontWeight.w700),
+              ),
+            ),
+            Align(
+              alignment: Alignment.center,
+              child: Image.asset(
+                'assets/images/wiki_logo.png',
+                color: Theme.of(context).brightness == Brightness.light ? CustomColors.kDark1 : CustomColors.kLight1,
+                height: 35,
               ),
             ),
           ],

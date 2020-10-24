@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:carbon12/components/background.dart';
 import 'package:carbon12/screens/elements_detail_page/components/color_tile.dart';
-import 'package:carbon12/screens/elements_detail_page/components/image_button.dart';
+import 'package:carbon12/screens/elements_detail_page/components/image_tile.dart';
 import 'package:carbon12/screens/elements_detail_page/components/long_text_tile.dart';
 import 'package:carbon12/screens/elements_detail_page/components/list_text_tile.dart';
 import 'package:carbon12/screens/elements_detail_page/components/text_tile.dart';
@@ -52,18 +52,17 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
               physics: BouncingScrollPhysics(),
               child: Column(
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      Text(json2['elements'][widget.index]['name'], style: Theme.of(context).textTheme.headline1),
-                      ImageButton(url: json2['elements'][widget.index]['source']),
-                    ],
-                  ),
+                  Text(json2['elements'][widget.index]['name'], style: Theme.of(context).textTheme.headline1),
                   const SizedBox(height: 20),
-                  TextTile(headline: 'Atomic Number', body: json2['elements'][widget.index]['number'].toString()),
+                  TextTile(
+                    headline: 'Atomic Number',
+                    body: json2['elements'][widget.index]['number'].toString(),
+                    url: 'https://en.wikipedia.org/wiki/Atomic_number',
+                  ),
                   LongTextTile(
                     headline: 'Atomic Mass',
                     body: json2['elements'][widget.index]['atomic_mass'].toStringAsFixed(4) + ' u',
+                    url: 'https://en.wikipedia.org/wiki/Atomic_mass',
                   ),
                   LongTextTile(headline: 'Summary', body: json2['elements'][widget.index]['summary'].toString()),
                   LongTextTile(
@@ -73,10 +72,12 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                   TextTile(
                     headline: 'Melting Point',
                     body: (json2['elements'][widget.index]['melt'] ?? '-').toString() + ' K',
+                    url: 'https://en.wikipedia.org/wiki/Melting_point',
                   ),
                   TextTile(
                     headline: 'Boiling Point',
                     body: (json2['elements'][widget.index]['boil'] ?? '-').toString() + ' K',
+                    url: 'https://en.wikipedia.org/wiki/Boiling_point',
                   ),
                   TextTile(
                     headline: 'Year Discovered',
@@ -91,14 +92,17 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                     body:
                         "${json2['elements'][widget.index]['electron_configuration']}\nOR\n${json2['elements'][widget.index]['electron_configuration_semantic']}",
                     textAlign: TextAlign.left,
+                    url: 'https://en.wikipedia.org/wiki/Electron_configuration',
                   ),
                   LongTextTile(
                     headline: 'Van Der Waals radius',
                     body: (json1['elements'][widget.index]['vanDerWaalsRadius'] ?? '-').toString() + ' pm',
+                    url: 'https://en.wikipedia.org/wiki/Van_der_Waals_radius',
                   ),
                   TextTile(
                     headline: 'Atomic Radius',
                     body: (json1['elements'][widget.index]['atomicRadius'] ?? '-').toString() + ' pm',
+                    url: 'https://en.wikipedia.org/wiki/Atomic_radius',
                   ),
                   LongTextTile(
                     headline: 'Oxidation states',
@@ -107,19 +111,27 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                   LongTextTile(
                     headline: 'Bonding type',
                     body: (json1['elements'][widget.index]['bondingType'] ?? '-').toString(),
+                    url: 'https://en.wikipedia.org/wiki/Chemical_bond',
                   ),
                   TextTile(
                     headline: 'Density',
                     body: json2['elements'][widget.index]['density'].toString() + ' g/L',
+                    url: 'https://en.wikipedia.org/wiki/Density',
                   ),
-                  ListTextTile(headline: 'Shells', list: json2['elements'][widget.index]['shells']),
+                  ListTextTile(
+                    headline: 'Electron shells',
+                    list: json2['elements'][widget.index]['shells'],
+                    url: 'https://en.wikipedia.org/wiki/Electron_shell',
+                  ),
                   LongTextTile(
                     headline: 'Electron Affinity',
                     body: (json1['elements'][widget.index]['electronAffinity'] ?? '-').toString() + ' kJ/mol',
+                    url: 'https://en.wikipedia.org/wiki/Electron_affinity',
                   ),
                   LongTextTile(
-                    headline: 'Electron Negativity',
+                    headline: 'Electronegativity',
                     body: (json1['elements'][widget.index]['electronegativity'] ?? '-').toString(),
+                    url: 'https://en.wikipedia.org/wiki/Electronegativity',
                   ),
                   LongTextTile(
                     headline: 'Appearance',
@@ -129,8 +141,10 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                     headline: 'Ionization Energies',
                     list: json2['elements'][widget.index]['ionization_energies'],
                     unit: ' kJ/mol',
+                    url: 'https://en.wikipedia.org/wiki/Ionization_energy',
                   ),
                   ColorTile(color: "0xFF${json2['elements'][widget.index]['cpk-hex']}"),
+                  ImageTile(url: json2['elements'][widget.index]['source']),
                 ],
               ),
             )
