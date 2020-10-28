@@ -6,8 +6,9 @@ class ColorButton extends StatelessWidget {
   final ThemeData theme;
   final String text;
   final GestureTapCallback onTap;
+  final bool isTab;
 
-  const ColorButton(this.text, {Key key, @required this.theme, this.onTap}) : super(key: key);
+  const ColorButton(this.text, {Key key, @required this.theme, this.onTap, this.isTab}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,8 +17,8 @@ class ColorButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        height: size.width * 0.5,
-        width: size.width * 0.4,
+        height: isTab ? size.width * 0.25 : size.width * 0.5,
+        width: isTab ? size.width * 0.2 : size.width * 0.4,
         decoration: BoxDecoration(
           color: Theme.of(context).primaryColor,
           boxShadow: [
@@ -59,8 +60,8 @@ class ColorButton extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Container(
-                    height: size.width * 0.2,
-                    width: size.width * 0.2,
+                    height: isTab ? size.width * 0.1 : size.width * 0.2,
+                    width: isTab ? size.width * 0.1 : size.width * 0.2,
                     decoration: BoxDecoration(
                       color: theme.primaryColor,
                       boxShadow: [

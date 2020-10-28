@@ -8,7 +8,7 @@ class NeuButton extends StatelessWidget {
     return GestureDetector(
       onTap: () => Navigator.pop(context),
       child: Container(
-        height: size.width * 0.2,
+        height: 150,
         width: size.width * 0.8,
         decoration: BoxDecoration(
           color: Theme.of(context).primaryColor,
