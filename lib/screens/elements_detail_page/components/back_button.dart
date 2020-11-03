@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class NeuButton extends StatelessWidget {
+class ButtonBack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -8,8 +8,10 @@ class NeuButton extends StatelessWidget {
     return GestureDetector(
       onTap: () => Navigator.pop(context),
       child: Container(
-        height: 100,
-        width: size.width * 0.8,
+        height: size.width * 0.15,
+        width: size.width * 0.15,
+        margin: const EdgeInsets.all(15.0),
+        alignment: Alignment.center,
         decoration: BoxDecoration(
           color: Theme.of(context).primaryColor,
           boxShadow: [
@@ -24,13 +26,14 @@ class NeuButton extends StatelessWidget {
               blurRadius: 10,
             ),
           ],
-          borderRadius: BorderRadius.circular(25),
+          borderRadius: BorderRadius.circular(15),
         ),
-        alignment: Alignment.center,
-        child: Center(
-          child: Text(
-            'Done',
-            style: Theme.of(context).textTheme.headline2,
+        child: Align(
+          alignment: Alignment(0.2, 0),
+          child: Icon(
+            Icons.arrow_back_ios,
+            size: 32,
+            color: Theme.of(context).accentColor,
           ),
         ),
       ),
