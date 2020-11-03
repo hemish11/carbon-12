@@ -40,6 +40,7 @@ class ListTextTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(25),
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(width: 20),
             Text(

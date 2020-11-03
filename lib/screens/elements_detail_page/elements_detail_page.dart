@@ -1,7 +1,9 @@
 import 'dart:convert';
 
 import 'package:carbon12/components/background.dart';
+import 'package:carbon12/screens/elements_detail_page/components/back_button.dart';
 import 'package:carbon12/screens/elements_detail_page/components/color_tile.dart';
+import 'package:carbon12/screens/elements_detail_page/components/element_image_tile.dart';
 import 'package:carbon12/screens/elements_detail_page/components/image_tile.dart';
 import 'package:carbon12/screens/elements_detail_page/components/long_text_tile.dart';
 import 'package:carbon12/screens/elements_detail_page/components/list_text_tile.dart';
@@ -52,8 +54,18 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
               physics: BouncingScrollPhysics(),
               child: Column(
                 children: [
-                  Text(json2['elements'][widget.index]['name'], style: Theme.of(context).textTheme.headline1),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      ButtonBack(),
+                      Text(json2['elements'][widget.index]['name'], style: Theme.of(context).textTheme.headline1),
+                      const SizedBox(width: 70),
+                    ],
+                  ),
                   const SizedBox(height: 20),
+                  ElementImageTile(
+                    url: 'https://images-of-elements.com/${json2['elements'][widget.index]['name'].toLowerCase()}.jpg',
+                  ),
                   TextTile(
                     headline: 'Atomic Number',
                     body: json2['elements'][widget.index]['number'].toString(),
@@ -91,7 +103,6 @@ class _ElementsDetailPageState extends State<ElementsDetailPage> {
                     headline: 'Electron Configuration',
                     body:
                         "${json2['elements'][widget.index]['electron_configuration']}\nOR\n${json2['elements'][widget.index]['electron_configuration_semantic']}",
-                    textAlign: TextAlign.left,
                     url: 'https://en.wikipedia.org/wiki/Electron_configuration',
                   ),
                   LongTextTile(

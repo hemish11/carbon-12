@@ -38,6 +38,7 @@ class ColorTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(25),
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 20),
             Text(

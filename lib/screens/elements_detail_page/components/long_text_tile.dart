@@ -4,11 +4,9 @@ import 'package:url_launcher/url_launcher.dart';
 class LongTextTile extends StatelessWidget {
   final String headline;
   final String body;
-  final TextAlign textAlign;
   final String url;
 
-  const LongTextTile({Key key, @required this.headline, this.body, this.textAlign = TextAlign.justify, this.url})
-      : super(key: key);
+  const LongTextTile({Key key, @required this.headline, this.body, this.url}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -39,24 +37,28 @@ class LongTextTile extends StatelessWidget {
           ],
           borderRadius: BorderRadius.circular(25),
         ),
-        child: Column(
-          crossAxisAlignment: textAlign == TextAlign.justify ? CrossAxisAlignment.center : CrossAxisAlignment.start,
-          children: [
-            const SizedBox(width: 20),
-            Text(
-              headline,
-              style: Theme.of(context).textTheme.headline2.copyWith(fontWeight: FontWeight.w700),
+        child: SizedBox(
+          width: size.width * 0.85,
+          child: Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const SizedBox(width: 20),
+                Text(
+                  headline,
+                  style: Theme.of(context).textTheme.headline2.copyWith(fontWeight: FontWeight.w700),
+                  textAlign: TextAlign.left,
+                ),
+                const SizedBox(height: 10),
+                Text(
+                  body,
+                  style: Theme.of(context).textTheme.bodyText1,
+                  textAlign: TextAlign.left,
+                ),
+              ],
             ),
-            const SizedBox(height: 10),
-            Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: Text(
-                body,
-                style: Theme.of(context).textTheme.bodyText1,
-                textAlign: textAlign,
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );

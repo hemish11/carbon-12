@@ -37,19 +37,25 @@ class TextTile extends StatelessWidget {
           ],
           borderRadius: BorderRadius.circular(25),
         ),
-        child: Row(
-          children: [
-            const SizedBox(width: 20),
-            Text(
-              '$headline:',
-              style: Theme.of(context).textTheme.headline2.copyWith(fontWeight: FontWeight.w700),
-            ),
-            const SizedBox(width: 10),
-            Text(
-              body,
-              style: Theme.of(context).textTheme.headline2,
-            ),
-          ],
+        child: SizedBox(
+          width: size.width * 0.85,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(width: 20),
+              Text(
+                '$headline:',
+                style: Theme.of(context).textTheme.headline2.copyWith(fontWeight: FontWeight.w700),
+                textAlign: TextAlign.left,
+              ),
+              const SizedBox(width: 10),
+              Text(
+                body,
+                style: Theme.of(context).textTheme.headline2,
+                textAlign: TextAlign.left,
+              ),
+            ],
+          ),
         ),
       ),
     );
