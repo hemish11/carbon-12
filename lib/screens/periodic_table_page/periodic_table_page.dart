@@ -10,7 +10,6 @@ import 'package:carbon12/screens/periodic_table_page/components/period_4.dart';
 import 'package:carbon12/screens/periodic_table_page/components/period_5.dart';
 import 'package:carbon12/screens/periodic_table_page/components/period_6.dart';
 import 'package:carbon12/screens/periodic_table_page/components/period_7.dart';
-import 'package:carbon12/screens/periodic_table_page/components/scroll_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -20,6 +19,7 @@ class PeriodicTablePage extends StatefulWidget {
 }
 
 class _PeriodicTablePageState extends State<PeriodicTablePage> {
+  TransformationController _controller = TransformationController();
   String path = 'assets/json/json2.json';
   Map data = {
     "elements": [
@@ -35,10 +35,22 @@ class _PeriodicTablePageState extends State<PeriodicTablePage> {
   }
 
   @override
+  void dispose() {
+    _controller.dispose();
+
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+
     return Background(
       givePadding: false,
-      child: BidirectionalScrollView(
+      child: InteractiveViewer(
+        maxScale: 1.0,
+        minScale: 1.0,
+        constrained: false,
         child: Column(
           children: [
             Period1(),
